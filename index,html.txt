@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fashion Finds | Amazon Affiliate</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #fafafa;
+      color: #333;
+    }
+    header {
+      background: #000;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      padding: 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 8px;
+      padding: 15px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 6px;
+    }
+    .card h3 {
+      font-size: 18px;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background: #000;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    footer {
+      background: #eee;
+      padding: 15px;
+      text-align: center;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Fashion Finds</h1>
+  <p>Trending Fashion Picks You’ll Love 💕</p>
+</header>
+
+<section>
+  <h2>🔥 Trending Fashion Products</h2>
+
+  <div class="products">
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300x400" alt="Dress">
+      <h3>Stylish Women Dress</h3>
+      <p>Perfect for parties & casual wear.</p>
+      <a href="YOUR_AMAZON_AFFILIATE_LINK" class="btn">Check Price on Amazon</a>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300x400" alt="Handbag">
+      <h3>Luxury Handbag</h3>
+      <p>Trendy & elegant everyday bag.</p>
+      <a href="YOUR_AMAZON_AFFILIATE_LINK" class="btn">Check Price on Amazon</a>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300x400" alt="Shoes">
+      <h3>Fashion Sneakers</h3>
+      <p>Comfort + style combined.</p>
+      <a href="YOUR_AMAZON_AFFILIATE_LINK" class="btn">Check Price on Amazon</a>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <h2>Affiliate Disclaimer</h2>
+  <p>
+    This website contains affiliate links. If you purchase through these links,
+    I may earn a small commission at no extra cost to you.
+    As an Amazon Associate, I earn from qualifying purchases.
+  </p>
+</section>
+
+<footer>
+  © 2026 Fashion Finds | Amazon Affiliate
+</footer>
+
+</body>
+</html>
